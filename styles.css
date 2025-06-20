@@ -1,0 +1,234 @@
+@import url("https://fonts.cdnfonts.com/css/samsung-sharp-sans-regular");
+body {
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  font-family: "Samsung Sharp Sans Regular", sans-serif;
+  font-family: "Samsung Sharp Sans Bold", sans-serif;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+form {
+  width: 600px;
+  margin: 50px;
+}
+
+input {
+  margin: 5px;
+}
+
+fieldset {
+  border: 3px rgb(93, 71, 189) solid;
+  border-radius: 20px;
+}
+
+legend {
+  font-family: fantasy;
+}
+
+input[type].bor {
+  border-radius: 10px;
+}
+
+input[required] {
+  border: 2px solid brown;
+}
+
+input[optional] {
+  border: 2px solid rgb(237, 143, 100);
+}
+
+input:hover {
+  background-color: darksalmon;
+}
+
+input:focus {
+  background: #22c1c3;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(73, 192, 168, 1) 18%,
+    rgba(100, 191, 150, 1) 30%,
+    rgba(132, 190, 128, 1) 45%,
+    rgb(190, 127, 116) 53%,
+    rgba(182, 189, 93, 1) 68%
+  );
+}
+
+input[value="Tap Academy"] {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+input + p {
+  display: none;
+}
+
+input:hover + p {
+  display: inline;
+  font-weight: 600;
+  font-size: 12px;
+  background-color: chartreuse;
+  color: black;
+  border-radius: 20px;
+}
+
+img {
+  display: none;
+}
+
+input[type="text"]:focus:valid ~ img.valid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="text"]:focus:invalid ~ img.invalid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="password"]:focus:valid ~ img.valid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="password"]:focus:invalid ~ img.invalid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="email"]:focus:valid ~ img.valid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="email"]:focus:invalid ~ img.invalid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="tel"]:focus:valid ~ img.valid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="tel"]:focus:invalid ~ img.invalid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="number"]:focus:valid ~ img#valid {
+  display: inline;
+  height: 20px;
+  width: 10px;
+}
+
+input[type="number"]:focus:invalid ~ img#invalid {
+  display: inline;
+  height: 20px;
+  width: 10px;
+}
+
+input:hover {
+  size: 15px;
+  font-size: 15px;
+  color: blue;
+}
+
+input {
+  border-radius: 10px;
+}
+
+input[type="text"]:focus:invalid ~ img#invalid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="text"]:focus:valid ~ img#valid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="Surname"]:focus:valid ~ img#valid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="Surname"]:focus:invalid ~ img#invalid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="tel"]:focus:valid ~ img#valid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="tel"]:focus:invalid ~ img#invalid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="conform password"]:focus:valid ~ img#invalid {
+  display: inline;
+  height: 20px;
+  width: 10px;
+}
+
+input[type="conform password"]:focus:invalid ~ img#invalid {
+  display: inline;
+  height: 20px;
+  width: 10px;
+}
+
+input[type="number"]:focus:valid ~ img.valid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="number"]:focus:invalid ~ img.invalid {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+select {
+  background-color: darkgray;
+}
+
+input[type="radio"]:checked {
+  height: 18px;
+  width: 18px;
+}
+
+input[type="radio"]:checked + label {
+  font-size: 12px;
+  color: rgba(237, 9, 32, 0.769);
+  font-weight: 300;
+}
+
+textarea {
+  resize: none;
+}
